@@ -1,3 +1,10 @@
+The three methods in the contract are used to check gas usage when a method sets ERC20 balance from 0 to 1 repeatedly. The results got 
+through forge are given below:
+
+openFaucetInefficient   : 266772
+openFaucetEfficient     : 130916
+openFaucetMoreEfficient : 130873
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**

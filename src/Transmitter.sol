@@ -3,6 +3,12 @@ pragma solidity ^0.8.2;
 
 import "../lib/openzeppelin-contracts/contracts/interfaces/IERC20.sol";
 
+/**
+ * @title Gas Comparison
+ * @author Mahendran Anbarasan
+ * @notice The three methods show the gas difference when an ERC20 balance increased from 0 to any value repeatedly.
+ */
+
 contract Transmitter{
     uint256 public constant DECIMAL_PER_TOKEN = 1e18;
     IERC20 token;

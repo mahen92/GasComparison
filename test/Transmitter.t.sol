@@ -6,6 +6,12 @@ import {Transmitter} from "../src/Transmitter.sol";
 import "../lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import "./mocks/TestFaucet.t.sol";
 
+/**
+ * @title Gas Comparison Test
+ * @author Mahendran Anbarasan
+ * @notice Tetsing Gas Comparison using Forge.
+ */
+
 contract TransmitterTest is Test {
     Transmitter public transmitter;
     TestFaucet public faucet;
